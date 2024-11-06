@@ -1,0 +1,30 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.row{
+    width: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.cell {
+    flex-basis: 100%;
+    margin: 0;
+    padding: 0;
+    float: right;
+    background-color: black;
+    border: 0px solid #ccc;
+}
